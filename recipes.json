@@ -1,1 +1,59 @@
-[{"name": "Cucumber Salad", "servings": 4, "total_time": "15 minutes", "ingredients": [["English Cucumber", 1, "unit"], ["thinly sliced onion", 0.25, "cup"], ["chopped green onion", 1, "unit"], ["minced garlic", 2, "clove"], ["soy sauce", 2, "tablespoon"], ["hot pepper flakes", 2, "teaspoon"], ["sesame oil", 2, "teaspoon"], ["sesame seeds", 2, "teaspoon"], ["sugar", 1, "teaspoon"]], "directions": ["cut cucumber lengtwise and into slices", "Put the cucumber into a large bowl. Add the onion, green onion, garlic, soy sauce, hot pepper flakes, sesame oil, sesame seeds, and sugar.", "Mix it well with a spoon until the sugar is well dissolved."]}]
+[
+    {
+        "name": "Cucumber Salad",
+        "servings": 4,
+        "total_time": "15 minutes",
+        "ingredients": [
+            [
+                "English Cucumber",
+                1,
+                "unit"
+            ],
+            [
+                "thinly sliced onion",
+                0.25,
+                "cup"
+            ],
+            [
+                "chopped green onion",
+                1,
+                "unit"
+            ],
+            [
+                "minced garlic",
+                2,
+                "clove"
+            ],
+            [
+                "soy sauce",
+                2,
+                "tablespoon"
+            ],
+            [
+                "hot pepper flakes",
+                2,
+                "teaspoon"
+            ],
+            [
+                "sesame oil",
+                2,
+                "teaspoon"
+            ],
+            [
+                "sesame seeds",
+                2,
+                "teaspoon"
+            ],
+            [
+                "sugar",
+                1,
+                "teaspoon"
+            ]
+        ],
+        "directions": [
+            "cut cucumber lengtwise and into slices",
+            "Put the cucumber into a large bowl. Add the onion, green onion, garlic, soy sauce, hot pepper flakes, sesame oil, sesame seeds, and sugar.",
+            "Mix it well with a spoon until the sugar is well dissolved."
+        ]
+    }
+]

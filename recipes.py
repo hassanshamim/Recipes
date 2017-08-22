@@ -50,7 +50,7 @@ class Recipe:
         """
         recipes = [dict(recipe) for recipe in recipes]
         file = open('recipes.json', 'w')
-        json.dump(recipes, file)
+        json.dump(recipes, file, indent=4)
         file.close()
 
     @classmethod
