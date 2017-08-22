@@ -8,12 +8,14 @@ class Recipe:
                  servings=0,
                  total_time='',
                  ingredients=None,
-                 directions=None):
+                 directions=None,
+                 starred=False):
         self.name = name
         self.servings = servings
         self.total_time = total_time
         self.ingredients = ingredients  # list of ingredients, i.e.: ['soy sauce', 2, 'tablespoon']
         self.directions = directions
+        self.starred = is_starred # added by Alex for tracking if a recipe is starred.
 
     def __iter__(self):
         '''
@@ -83,8 +85,25 @@ class Recipe:
                 break
             directions.append(line)
 
+        """
+        These are the "starred" recipe additions Alex made
+        """
+        print('Do you want to star this recipe? Enter "Y" ("Yes") or "N" ("No")')
+        star_answer = input()
+        star_answer = star_answer.upper
+            correct_answers = ['Y','N']
+            if star_answer is not in correct_answers:
+                print('Try again, I need "Y" or "N"')
+            elif star_answer == 'Y'
+                is_starred = TRUE
+            elif star_answer == 'N'
+                is_starred = FALSE
+
+
+
         return cls(
             recipe_name,
+            is_starred = is_starred,
             servings=servings,
             total_time=total_time,
             ingredients=ingredients,
@@ -92,6 +111,7 @@ class Recipe:
 
     def display(self):
         print(self.name)
+        print('Starred: ', self.starred) # Adding in a display for the "starred" status (Alex again).
         print('Servings:', self.servings)
         print('Cooking time:', self.total_time)
         print('Ingredients:'.center(40))
